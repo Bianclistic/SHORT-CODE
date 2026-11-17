@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: blue;
+  margin-bottom: 30px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.top img {
+  width: 20%;
+}
+
+.alt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.alt a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+}
+span {
+  color: orangered;
+  font-weight: bold;
+}
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+span {
+  display: flex;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  height: 60px;
+  width: 90px;
+}
+.alt2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+.alt2 li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+}
+.top-header2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+  background-color: aliceblue;
+}
+
+.alt3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.alt3 a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.pop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.pop li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.pop li {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  background-image: url(right.7a114c1a9b.jpg);
+}
+.pop {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(right.7a114c1a9b.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: aliceblue;
+  background-color: gray;
+  gap: 20px;
+}
+.side-bar h3 {
+  color: aliceblue;
+  padding: 30px;
+}
+.image img {
+  width: 80%;
+  height: 250px;
+}

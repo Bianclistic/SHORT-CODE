@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blueviolet;
+  padding: 30px;
+  align-items: center;
+  margin: 0px auto;
+  width: 600px;
+}
+.quiz h1 {
+  color: yellow;
+  margin-bottom: 20px;
+}
+.statu {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.tag {
+  display: flex;
+
+  align-items: center;
+  border: 8px dotted gold;
+  background-color: aliceblue;
+  text-align: center;
+  width: 550px;
+  height: 130px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.tag h2 {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.link {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  background-color: aliceblue;
+  width: 270px;
+  height: 60px;
+  border: navy;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 2px 3px 5px black;
+}
+.btn:hover {
+  background-color: yellow;
+  color: red;
+}
+.next {
+  display: flex;
+  opacity: 0;
+  justify-content: space-between;
+  color: lightgreen;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.next.active {
+  opacity: 1;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid yellow;
+  background-color: yellow;
+  color: black;
+  border-radius: 7px;
+  text-decoration: none;
+  text-align: center;
+  width: 90px;
+  height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+}
