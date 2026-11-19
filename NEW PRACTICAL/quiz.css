@@ -54,6 +54,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   box-shadow: 2px 3px 5px black;
+  background-color: rgb(160, 229, 206);
 }
 .btn:hover {
   background-color: yellow;
@@ -67,6 +68,10 @@ body {
   margin-top: 20px;
   font-size: 25px;
   font-weight: bold;
+}
+.text {
+  box-shadow: 2px 3px 5px blue;
+  cursor: pointer;
 }
 .next.active {
   opacity: 1;
